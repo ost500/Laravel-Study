@@ -4,18 +4,18 @@
     <title>NGRNetwork</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="shortcut icon" href="/template/img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="/template/style/bootstrap.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style/icon.css">
-    <link rel="stylesheet" href="style/loader.css">
-    <link rel="stylesheet" href="style/idangerous.swiper.css">
-    <link rel="stylesheet" href="style/jquery-ui.css">
-    <link rel="stylesheet" href="style/stylesheet.css">
+    <link rel="stylesheet" href="/template/style/icon.css">
+    <link rel="stylesheet" href="/template/style/loader.css">
+    <link rel="stylesheet" href="/template/style/idangerous.swiper.css">
+    <link rel="stylesheet" href="/template/style/jquery-ui.css">
+    <link rel="stylesheet" href="/template/style/stylesheet.css">
 
     <!--[if lt IE 10]>
-    <link rel="stylesheet" type="text/css" href="style/ie-9.css" />
+    <link rel="stylesheet" type="text/css" href="/template/style/ie-9.css" />
     <![endif]-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -29,7 +29,7 @@
 
 <div class="be-loader">
     <div class="spinner">
-        <img src="img/logo-loader.png"  alt="">
+        <img src="/template/img/logo-loader.png"  alt="">
         <p class="circle">
 			  <span class="ouro">
 			    <span class="left"><span class="anim"></span></span>
@@ -44,10 +44,10 @@
         <div class="row no_row row-header">
             <div class="brand-be">
                 <a href="index.html">
-                    <img class="logo-c active be_logo"  src="img/logo.png" alt="logo">
-                    <img class="logo-c be_logo" src="img/logo-green.png" alt="logo2">
-                    <img  class="logo-c be_logo" src="img/logo-orang.png" alt="logo3">
-                    <img class="logo-c be_logo" src="img/logo-red.png" alt="logo4">
+                    <img class="logo-c active be_logo"  src="/template/img/logo.png" alt="logo">
+                    <img class="logo-c be_logo" src="/template/img/logo-green.png" alt="logo2">
+                    <img  class="logo-c be_logo" src="/template/img/logo-orang.png" alt="logo3">
+                    <img class="logo-c be_logo" src="/template/img/logo-red.png" alt="logo4">
                 </a>
             </div>
             <div class="header-menu-block">
@@ -364,7 +364,7 @@
                     <div class="category-1 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p1.jpg" alt="omg">
+                                <img src="/template/img/p1.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">The kitsch destruction of our world</a>
                             <span>
@@ -373,7 +373,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a1.png" alt="" class="ava-author">
+                                <img src="/template/img/a1.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -386,7 +386,7 @@
                     <div class="category-2 mix custom-column-5">
                         <div class="be-post">
                             <a href="page2.html" class="be-img-block">
-                                <img src="img/p2.jpg" alt="omg">
+                                <img src="/template/img/p2.jpg" alt="omg">
                             </a>
                             <a href="page2.html" class="be-post-title">Treebeard</a>
                             <span>
@@ -395,7 +395,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a1.png" alt="" class="ava-author">
+                                <img src="/template/img/a1.png" alt="" class="ava-author">
                                 <span>by <a href="page2.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -408,7 +408,7 @@
                     <div class="category-3 mix custom-column-5">
                         <div class="be-post">
                             <a href="page3.html" class="be-img-block">
-                                <img src="img/p3.jpg" alt="omg">
+                                <img src="/template/img/p3.jpg" alt="omg">
                             </a>
                             <a href="page3.html" class="be-post-title">Colors of Ramadan</a>
                             <span>
@@ -417,7 +417,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a2.png" alt="" class="ava-author">
+                                <img src="/template/img/a2.png" alt="" class="ava-author">
                                 <span>by <a href="page3.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -430,7 +430,7 @@
                     <div class="category-4 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p4.jpg" alt="omg">
+                                <img src="/template/img/p4.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">Leaving Home - L'Officiel Ukraine</a>
                             <span>
@@ -439,7 +439,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a3.png" alt="" class="ava-author">
+                                <img src="/template/img/a3.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -452,7 +452,7 @@
                     <div class="category-5 mix custom-column-5">
                         <div class="be-post">
                             <a href="page2.html" class="be-img-block">
-                                <img src="img/p5.jpg" alt="omg">
+                                <img src="/template/img/p5.jpg" alt="omg">
                             </a>
                             <a href="page2.html" class="be-post-title">Drive Your World</a>
                             <span>
@@ -461,7 +461,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a4.png" alt="" class="ava-author">
+                                <img src="/template/img/a4.png" alt="" class="ava-author">
                                 <span>by <a href="page2.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -474,7 +474,7 @@
                     <div class="category-6 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p13.jpg" alt="omg">
+                                <img src="/template/img/p13.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">Fran Ewald for The Diaries Project</a>
                             <span>
@@ -483,7 +483,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a5.png" alt="" class="ava-author">
+                                <img src="/template/img/a5.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -496,7 +496,7 @@
                     <div class="category-5 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p7.jpg" alt="omg">
+                                <img src="/template/img/p7.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">raindrops monochrome</a>
                             <span>
@@ -505,7 +505,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a6.png" alt="" class="ava-author">
+                                <img src="/template/img/a6.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -518,7 +518,7 @@
                     <div class="category-3 mix custom-column-5">
                         <div class="be-post">
                             <a href="page3.html" class="be-img-block">
-                                <img src="img/p8.jpg" alt="omg">
+                                <img src="/template/img/p8.jpg" alt="omg">
                             </a>
                             <a href="page3.html" class="be-post-title">Racing Queensland</a>
                             <span>
@@ -527,7 +527,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a7.png" alt="" class="ava-author">
+                                <img src="/template/img/a7.png" alt="" class="ava-author">
                                 <span>by <a href="page3.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -540,7 +540,7 @@
                     <div class="category-2 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p9.jpg" alt="omg">
+                                <img src="/template/img/p9.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">NAHA Finalist Hairstylist of the Year Allen Ruiz</a>
                             <span>
@@ -549,7 +549,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a7.png" alt="" class="ava-author">
+                                <img src="/template/img/a7.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -562,7 +562,7 @@
                     <div class="category-4 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p10.jpg" alt="omg">
+                                <img src="/template/img/p10.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">tomorrow</a>
                             <span>
@@ -571,7 +571,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a8.png" alt="" class="ava-author">
+                                <img src="/template/img/a8.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -584,7 +584,7 @@
                     <div class="category-6 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p11.jpg" alt="omg">
+                                <img src="/template/img/p11.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">Tropicalia</a>
                             <span>
@@ -593,7 +593,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a5.png" alt="" class="ava-author">
+                                <img src="/template/img/a5.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -606,7 +606,7 @@
                     <div class="category-2 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p12.jpg" alt="omg">
+                                <img src="/template/img/p12.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">Face</a>
                             <span>
@@ -615,7 +615,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a6.png" alt="" class="ava-author">
+                                <img src="/template/img/a6.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -628,7 +628,7 @@
                     <div class="category-1 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p13.jpg" alt="omg">
+                                <img src="/template/img/p13.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">Stay Ahead Series</a>
                             <span>
@@ -637,7 +637,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a5.png" alt="" class="ava-author">
+                                <img src="/template/img/a5.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -650,7 +650,7 @@
                     <div class="category-3 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p14.jpg" alt="omg">
+                                <img src="/template/img/p14.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">Faber-Castell / Psychological Problems</a>
                             <span>
@@ -659,7 +659,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a1.png" alt="" class="ava-author">
+                                <img src="/template/img/a1.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -672,7 +672,7 @@
                     <div class="category-1 mix custom-column-5">
                         <div class="be-post">
                             <a href="page1.html" class="be-img-block">
-                                <img src="img/p15.jpg" alt="omg">
+                                <img src="/template/img/p15.jpg" alt="omg">
                             </a>
                             <a href="page1.html" class="be-post-title">Garry Simpson - Bridges - Intelligent Life Magazine</a>
                             <span>
@@ -681,7 +681,7 @@
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
                             <div class="author-post">
-                                <img src="img/a9.png" alt="" class="ava-author">
+                                <img src="/template/img/a9.png" alt="" class="ava-author">
                                 <span>by <a href="page1.html">Hoang Nguyen</a></span>
                             </div>
                             <div class="info-block">
@@ -704,122 +704,122 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide active" data-val="0">
 
-                    <a href="gallery.html">				<img class="img-responsive img-full" src="img/f1.jpg" alt="">
+                    <a href="gallery.html">				<img class="/template/img-responsive img-full" src="/template/img/f1.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="1">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f2.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f2.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="2">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f3.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f3.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="3">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f4.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f4.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="4">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f5.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f5.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="5">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f6.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f6.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="6">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f7.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f7.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="7">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f8.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f8.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="8">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f9.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f9.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="9">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f10.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f10.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="10">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f11.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f11.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="11">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f12.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f12.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="12">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f13.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f13.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="13">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f14.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f14.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="14">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f15.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f15.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="15">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f16.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f16.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="16">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f17.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f17.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="17">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f18.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f18.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="18">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f19.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f19.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="19">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f1.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f1.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="20">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f2.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f2.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="21">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f3.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f3.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="22">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f4.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f4.jpg" alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="23">
                     <a href="gallery.html">
 
-                        <img class="img-responsive img-full" src="img/f5.jpg" alt="">
+                        <img class="/template/img-responsive img-full" src="/template/img/f5.jpg" alt="">
                     </a></div>
             </div>
             <div class="pagination hidden"></div>
@@ -869,18 +869,18 @@
                 <div class="col-md-3 galerry">
                     <div class="footer-block">
                         <h1 class="footer-title">Recent Works</h1>
-                        <a href="blog-detail-2.html"><img src="img/g1.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g2.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g3.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g4.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g5.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g6.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g7.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g8.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g9.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g10.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g11.jpg" alt=""></a>
-                        <a href="blog-detail-2.html"><img src="img/g12.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g1.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g2.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g3.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g4.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g5.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g6.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g7.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g8.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g9.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g10.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g11.jpg" alt=""></a>
+                        <a href="blog-detail-2.html"><img src="/template/img/g12.jpg" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -1104,27 +1104,27 @@
     <div class="main-color">
         <div class="title">Main Color:</div>
         <div class="colours-wrapper">
-            <div class="entry color1 m-color active" data-colour="style/stylesheet.css"></div>
-            <div class="entry color3 m-color"  data-colour="style/style-green.css"></div>
-            <div class="entry color6 m-color"  data-colour="style/style-orange.css"></div>
-            <div class="entry color8 m-color"  data-colour="style/style-red.css"></div>
+            <div class="entry color1 m-color active" data-colour="/template/style/stylesheet.css"></div>
+            <div class="entry color3 m-color"  data-colour="/template/style/style-green.css"></div>
+            <div class="entry color6 m-color"  data-colour="/template/style/style-orange.css"></div>
+            <div class="entry color8 m-color"  data-colour="/template/style/style-red.css"></div>
             <div class="title">Second Color:</div>
-            <div class="entry s-color  active color10"  data-colour="style/stylesheet.css"></div>
-            <div class="entry s-color color11"  data-colour="style/style-oranges.css"></div>
-            <div class="entry s-color color12"  data-colour="style/style-greens.css"></div>
-            <div class="entry s-color color13"  data-colour="style/style-reds.css"></div>
+            <div class="entry s-color  active color10"  data-colour="/template/style/stylesheet.css"></div>
+            <div class="entry s-color color11"  data-colour="/template/style/style-oranges.css"></div>
+            <div class="entry s-color color12"  data-colour="/template/style/style-greens.css"></div>
+            <div class="entry s-color color13"  data-colour="/template/style/style-reds.css"></div>
         </div>
     </div>
-    <div class="open"><img src="img/icon-134.png" alt=""></div>
+    <div class="open"><img src="/template/img/icon-134.png" alt=""></div>
 </div>
 <!-- SCRIPTS	 -->
-<script src="script/jquery-2.1.4.min.js"></script>
-<script src="script/jquery-ui.min.js"></script>
-<script src="script/bootstrap.min.js"></script>
-<script src="script/idangerous.swiper.min.js"></script>
-<script src="script/jquery.mixitup.js"></script>
-<script src="script/jquery.viewportchecker.min.js"></script>
-<script src="script/filters.js"></script>
-<script src="script/global.js"></script>
+<script src="/template/script/jquery-2.1.4.min.js"></script>
+<script src="/template/script/jquery-ui.min.js"></script>
+<script src="/template/script/bootstrap.min.js"></script>
+<script src="/template/script/idangerous.swiper.min.js"></script>
+<script src="/template/script/jquery.mixitup.js"></script>
+<script src="/template/script/jquery.viewportchecker.min.js"></script>
+<script src="/template/script/filters.js"></script>
+<script src="/template/script/global.js"></script>
 </body>
 </html>
