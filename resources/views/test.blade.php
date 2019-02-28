@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="/template/style/stylesheet.css">
 
     <!--[if lt IE 10]>
-    <link rel="stylesheet" type="text/css" href="/template/style/ie-9.css" />
+    <link rel="stylesheet" type="text/css" href="/template/style/ie-9.css"/>
     <![endif]-->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -23,13 +23,13 @@
     <![endif]-->
 
 </head>
-<body >
+<body>
 
 <!-- THE LOADER -->
 
 <div class="be-loader">
     <div class="spinner">
-        <img src="/template/img/logo-loader.png"  alt="">
+        <img src="/template/img/logo-loader.png" alt="">
         <p class="circle">
 			  <span class="ouro">
 			    <span class="left"><span class="anim"></span></span>
@@ -44,9 +44,9 @@
         <div class="row no_row row-header">
             <div class="brand-be">
                 <a href="index.html">
-                    <img class="logo-c active be_logo"  src="/template/img/logo.png" alt="logo">
+                    <img class="logo-c active be_logo" src="/template/img/logo.png" alt="logo">
                     <img class="logo-c be_logo" src="/template/img/logo-green.png" alt="logo2">
-                    <img  class="logo-c be_logo" src="/template/img/logo-orang.png" alt="logo3">
+                    <img class="logo-c be_logo" src="/template/img/logo-orang.png" alt="logo3">
                     <img class="logo-c be_logo" src="/template/img/logo-red.png" alt="logo4">
                 </a>
             </div>
@@ -69,7 +69,7 @@
             </div>
             <div class="login-header-block">
                 <div class="login_block">
-                    <a class="btn-login btn color-1 size-2 hover-2" href="" ><i class="fa fa-user"></i>
+                    <a class="btn-login btn color-1 size-2 hover-2" href=""><i class="fa fa-user"></i>
                         Log in</a>
                 </div>
             </div>
@@ -84,7 +84,7 @@
         <div class="head-bg-content">
             <h1>Your Best Social Network Template</h1>
             <p>Donec in rhoncus tortor. Sed tristique auctor ligula vel viverra</p>
-            <a class="btn color-1 size-1 hover-1" ><i class="fa fa-facebook"></i>sign up via facebook</a>
+            <a class="btn color-1 size-1 hover-1"><i class="fa fa-facebook"></i>sign up via facebook</a>
             <a class="be-register btn color-3 size-1 hover-6"><i class="fa fa-lock"></i>sign up now</a>
         </div>
     </div>
@@ -104,7 +104,8 @@
                         <span class="be-dropdown-content"> Projects	</span>
                         <ul class="drop-down-list">
                             <li class="filter" data-filter=".category-1"><a data-type="category-1">Projects</a></li>
-                            <li class="filter" data-filter=".category-2"><a data-type="category-2">Work in Progress</a></li>
+                            <li class="filter" data-filter=".category-2"><a data-type="category-2">Work in Progress</a>
+                            </li>
                             <li class="filter" data-filter=".category-3"><a data-type="category-3">People</a></li>
                         </ul>
                     </div>
@@ -155,11 +156,11 @@
                     </h3>
                     <div class="creative_filds_block">
                         <div class="ul">
-                            <a  data-filter=".category-1" class="filter">Graphic Design		</a>
-                            <a data-filter=".category-2" class="filter">Photography			</a>
-                            <a data-filter=".category-3" class="filter">Interaction Design	</a>
-                            <a data-filter=".category-4" class="filter">Art Direction		</a>
-                            <a data-filter=".category-5" class="filter">Illustration		</a>
+                            <a data-filter=".category-1" class="filter">Graphic Design </a>
+                            <a data-filter=".category-2" class="filter">Photography </a>
+                            <a data-filter=".category-3" class="filter">Interaction Design </a>
+                            <a data-filter=".category-4" class="filter">Art Direction </a>
+                            <a data-filter=".category-5" class="filter">Illustration </a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +195,8 @@
                                         Enter School
                                     </h3>
                                     <form action="./" class="input-search">
-                                        <input class="filters-input" type="text" required placeholder="Start typing to see list">
+                                        <input class="filters-input" type="text" required
+                                               placeholder="Start typing to see list">
                                     </form>
                                     <i class="fa fa-times"></i>
                                 </div>
@@ -205,7 +207,8 @@
                                         Tools
                                     </h3>
                                     <form action="./" class="input-search">
-                                        <input class="filters-input" type="text" required placeholder="Start typing to see list">
+                                        <input class="filters-input" type="text" required
+                                               placeholder="Start typing to see list">
                                     </form>
                                     <i class="fa fa-times"></i>
                                 </div>
@@ -349,7 +352,8 @@
                                         Galerry
                                     </h3>
                                     <form action="./" class="input-search">
-                                        <input  class="filters-input" type="text" required placeholder="Start typing to see list">
+                                        <input class="filters-input" type="text" required
+                                               placeholder="Start typing to see list">
                                     </form>
                                     <i class="fa fa-times"></i>
                                 </div>
@@ -360,337 +364,33 @@
             </div>
 
             <div class="col-md-10">
-                <div id="container-mix"  class="row _post-container_">
-                    <div class="category-1 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p1.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">The kitsch destruction of our world</a>
-                            <span>
+                <div id="container-mix" class="row _post-container_">
+                    @foreach($articles as $article)
+                        <div class="category-1 mix custom-column-5">
+                            <div class="be-post">
+                                <a href="page1.html" class="be-img-block">
+                                    <img src="/template/img/p1.jpg" alt="omg">
+                                </a>
+                                <a href="page1.html" class="be-post-title">{{ $article->title }}</a>
+                                <span>
 									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
 									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
 									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
 								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a1.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-2 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page2.html" class="be-img-block">
-                                <img src="/template/img/p2.jpg" alt="omg">
-                            </a>
-                            <a href="page2.html" class="be-post-title">Treebeard</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a1.png" alt="" class="ava-author">
-                                <span>by <a href="page2.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
+                                <div class="author-post">
+                                    <img src="/template/img/a1.png" alt="" class="ava-author">
+                                    <span>by <a href="page1.html">Hoang Nguyen</a></span>
+                                </div>
+                                <div class="info-block">
+                                    <span><i class="fa fa-thumbs-o-up"></i> 360</span>
+                                    <span><i class="fa fa-eye"></i> 789</span>
+                                    <span><i class="fa fa-comment-o"></i> 20</span>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="category-3 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page3.html" class="be-img-block">
-                                <img src="/template/img/p3.jpg" alt="omg">
-                            </a>
-                            <a href="page3.html" class="be-post-title">Colors of Ramadan</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a2.png" alt="" class="ava-author">
-                                <span>by <a href="page3.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-4 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p4.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">Leaving Home - L'Officiel Ukraine</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a3.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-5 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page2.html" class="be-img-block">
-                                <img src="/template/img/p5.jpg" alt="omg">
-                            </a>
-                            <a href="page2.html" class="be-post-title">Drive Your World</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a4.png" alt="" class="ava-author">
-                                <span>by <a href="page2.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-6 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p13.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">Fran Ewald for The Diaries Project</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a5.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-5 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p7.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">raindrops monochrome</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a6.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-3 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page3.html" class="be-img-block">
-                                <img src="/template/img/p8.jpg" alt="omg">
-                            </a>
-                            <a href="page3.html" class="be-post-title">Racing Queensland</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a7.png" alt="" class="ava-author">
-                                <span>by <a href="page3.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-2 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p9.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">NAHA Finalist Hairstylist of the Year Allen Ruiz</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a7.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-4 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p10.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">tomorrow</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a8.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-6 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p11.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">Tropicalia</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a5.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-2 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p12.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">Face</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a6.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-1 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p13.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">Stay Ahead Series</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a5.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-3 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p14.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">Faber-Castell / Psychological Problems</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a1.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="category-1 mix custom-column-5">
-                        <div class="be-post">
-                            <a href="page1.html" class="be-img-block">
-                                <img src="/template/img/p15.jpg" alt="omg">
-                            </a>
-                            <a href="page1.html" class="be-post-title">Garry Simpson - Bridges - Intelligent Life Magazine</a>
-                            <span>
-									<a href="blog-detail-2.html" class="be-post-tag">Interaction Design</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">UI/UX</a>,
-									<a href="blog-detail-2.html" class="be-post-tag">Web Design</a>
-								</span>
-                            <div class="author-post">
-                                <img src="/template/img/a9.png" alt="" class="ava-author">
-                                <span>by <a href="page1.html">Hoang Nguyen</a></span>
-                            </div>
-                            <div class="info-block">
-                                <span><i class="fa fa-thumbs-o-up"></i> 360</span>
-                                <span><i class="fa fa-eye"></i> 789</span>
-                                <span><i class="fa fa-comment-o"></i> 20</span>
-                            </div>
-                        </div>
-                    </div>
+                    @endforeach
+
+
                 </div>
             </div>
 
@@ -700,11 +400,14 @@
 <!-- THE FOOTER -->
 <footer>
     <div class="footer_slider">
-        <div class="swiper-container" data-autoplay="0" data-loop="1" data-speed="500" data-center="0" data-slides-per-view="responsive" data-xs-slides="4" data-sm-slides="8" data-md-slides="14" data-lg-slides="19" data-add-slides="19">
+        <div class="swiper-container" data-autoplay="0" data-loop="1" data-speed="500" data-center="0"
+             data-slides-per-view="responsive" data-xs-slides="4" data-sm-slides="8" data-md-slides="14"
+             data-lg-slides="19" data-add-slides="19">
             <div class="swiper-wrapper">
                 <div class="swiper-slide active" data-val="0">
 
-                    <a href="gallery.html">				<img class="/template/img-responsive img-full" src="/template/img/f1.jpg" alt="">
+                    <a href="gallery.html"> <img class="/template/img-responsive img-full" src="/template/img/f1.jpg"
+                                                 alt="">
                     </a></div>
                 <div class="swiper-slide" data-val="1">
                     <a href="gallery.html">
@@ -831,7 +534,10 @@
                 <div class="col-md-3 col-xl-4">
                     <div class="footer-block">
                         <h1 class="footer-title">About Us</h1>
-                        <p>Vestibulum tincidunt, augue fermentum accumsan viverra, eros dui rutrum libero, nec imperdiet felis sem in augue luctus <a href="blog-detail-2.html">diam a porta</a> iaculis. Vivamus sit amet fermentum nisl. Duis id <a href="blog-detail-2.html">massa id purus</a> tristique varius a sit amet est. Fusce dolor libero, efficitur et lobortis at, faucibus nec nunc.</p>
+                        <p>Vestibulum tincidunt, augue fermentum accumsan viverra, eros dui rutrum libero, nec imperdiet
+                            felis sem in augue luctus <a href="blog-detail-2.html">diam a porta</a> iaculis. Vivamus sit
+                            amet fermentum nisl. Duis id <a href="blog-detail-2.html">massa id purus</a> tristique
+                            varius a sit amet est. Fusce dolor libero, efficitur et lobortis at, faucibus nec nunc.</p>
                         <ul class="soc_buttons">
                             <li><a href=""><i class="fa fa-facebook"></i></a></li>
                             <li><a href=""><i class="fa fa-twitter"></i></a></li>
@@ -853,7 +559,8 @@
                                     <li><a href="contact-us.html">Contacts</a></li>
                                     <li><a href="activity.html">Job</a></li>
                                     <li><a href="activity.html">Projets</a></li>
-                                </ul></div>
+                                </ul>
+                            </div>
                             <div class="col-md-6">
                                 <ul class="link-list">
                                     <li><a href="activity.html">New Works</a></li>
@@ -899,7 +606,9 @@
                             </div>
                             <div class="message-soc">
                                 <div class="date">16h ago</div>
-                                <a href="blog-detail-2.html" class="account">@faq</a> vestibulum accumsan est <a href="blog-detail-2.html" class="heshtag">blog-detail-2.htmlmalesuada</a> sem auctor, eu aliquet nisi ornare leo sit amet varius egestas.
+                                <a href="blog-detail-2.html" class="account">@faq</a> vestibulum accumsan est <a
+                                    href="blog-detail-2.html" class="heshtag">blog-detail-2.htmlmalesuada</a> sem
+                                auctor, eu aliquet nisi ornare leo sit amet varius egestas.
                             </div>
                         </div>
                     </div>
@@ -946,7 +655,8 @@
                         <div class="col-xs-6">
                             <div class="be-checkbox">
                                 <label class="check-box">
-                                    <input class="checkbox-input" type="checkbox" value=""> <span class="check-box-sign"></span>
+                                    <input class="checkbox-input" type="checkbox" value=""> <span
+                                        class="check-box-sign"></span>
                                 </label>
                                 <span class="large-popup-text">
 									Stay signed in
@@ -1076,15 +786,18 @@
                         <div class="col-md-6">
                             <div class="be-checkbox">
                                 <label class="check-box">
-                                    <input class="checkbox-input" type="checkbox" required="" value="" > <span class="check-box-sign"></span>
+                                    <input class="checkbox-input" type="checkbox" required="" value=""> <span
+                                        class="check-box-sign"></span>
                                 </label>
                                 <span class="large-popup-text">
-									I have read and agree to the <a class="be-popup-terms" href="blog-detail-2.html">Terms of Use</a> and <a class="be-popup-terms" href="blog-detail-2.html">Privacy Policy</a>.
+									I have read and agree to the <a class="be-popup-terms" href="blog-detail-2.html">Terms of Use</a> and <a
+                                        class="be-popup-terms" href="blog-detail-2.html">Privacy Policy</a>.
 								</span>
                             </div>
                             <div class="be-checkbox">
                                 <label class="check-box">
-                                    <input class="checkbox-input" type="checkbox" value="" > <span class="check-box-sign"></span>
+                                    <input class="checkbox-input" type="checkbox" value=""> <span
+                                        class="check-box-sign"></span>
                                 </label>
                                 <span class="large-popup-text">
 									Send me notifications
@@ -1105,14 +818,14 @@
         <div class="title">Main Color:</div>
         <div class="colours-wrapper">
             <div class="entry color1 m-color active" data-colour="/template/style/stylesheet.css"></div>
-            <div class="entry color3 m-color"  data-colour="/template/style/style-green.css"></div>
-            <div class="entry color6 m-color"  data-colour="/template/style/style-orange.css"></div>
-            <div class="entry color8 m-color"  data-colour="/template/style/style-red.css"></div>
+            <div class="entry color3 m-color" data-colour="/template/style/style-green.css"></div>
+            <div class="entry color6 m-color" data-colour="/template/style/style-orange.css"></div>
+            <div class="entry color8 m-color" data-colour="/template/style/style-red.css"></div>
             <div class="title">Second Color:</div>
-            <div class="entry s-color  active color10"  data-colour="/template/style/stylesheet.css"></div>
-            <div class="entry s-color color11"  data-colour="/template/style/style-oranges.css"></div>
-            <div class="entry s-color color12"  data-colour="/template/style/style-greens.css"></div>
-            <div class="entry s-color color13"  data-colour="/template/style/style-reds.css"></div>
+            <div class="entry s-color  active color10" data-colour="/template/style/stylesheet.css"></div>
+            <div class="entry s-color color11" data-colour="/template/style/style-oranges.css"></div>
+            <div class="entry s-color color12" data-colour="/template/style/style-greens.css"></div>
+            <div class="entry s-color color13" data-colour="/template/style/style-reds.css"></div>
         </div>
     </div>
     <div class="open"><img src="/template/img/icon-134.png" alt=""></div>
